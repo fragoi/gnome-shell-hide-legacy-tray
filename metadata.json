@@ -1,8 +1,8 @@
 {
-	"name": "Hile Legacy Tray",
-	"uuid": "hide-legacy-tray@fragoi.github.com",
-	"shell-version": [
-		"3.18.5"
-	],
-	"description": "Hide Legacy Tray"
+    "name": "Hile Legacy Tray",
+    "uuid": "hide-legacy-tray@fragoi.github.com",
+    "shell-version": [
+        "3.18.5"
+    ],
+    "description": "Hide Legacy Tray"
 }
