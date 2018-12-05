@@ -1,9 +1,16 @@
 const Main = imports.ui.main;
 
 function enable() {
-	Main.legacyTray.actor.set_opacity(0);
+    _tray().hide();
 }
 
 function disable() {
-	Main.legacyTray.actor.set_opacity(255);
+    _tray().show();
+}
+
+/**
+ * @returns the UI tray object
+ */
+function _tray() {
+    return Main.legacyTray.actor.get_first_child();
 }
