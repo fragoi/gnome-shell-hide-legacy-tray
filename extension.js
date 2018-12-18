@@ -12,5 +12,5 @@ function disable() {
  * @returns the UI tray object
  */
 function _tray() {
-    return Main.legacyTray.actor.get_first_child();
+    return Main.legacyTray._slider;
 }
